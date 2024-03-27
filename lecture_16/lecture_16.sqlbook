@@ -225,7 +225,7 @@ SELECT nationality,
        MAX(victories) AS max_victories
 FROM drivers
 GROUP BY nationality
-HAVING SUM(victories) > 50;
+ SUM(victories) > 50;
 -- SQLBook: Markup
 <font size = "5">
 
